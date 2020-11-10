@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DashboardHelloVN</title>
     <link rel="stylesheet" href=style.css>
+   
 
-    <link rel="stylesheet" href="https://fontawesome.com/v4.7.0/icons/">
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
+   
     <div class="wrapper">
         <div class="left">
             <div class="header">
@@ -39,41 +40,36 @@
                 <p class="p1_title">Danh sách mà bạn cần</p>
                 <h1 class="h1_title">Những điểm du lịch, nhà hàng, khách sạn mà bạn cần biết</h1>
             </div>
-            <div class="search_box">
-                <!-- <p class="text-placehlder">Nhập địa điểm du lịch</p> -->
-                <input class="text-placeholder" type="text" name="" placeholder="Nhập địa điểm du lịch">
-                <button class="button"> <i class="fa fa-search text-white" aria-hidden="true"></i>
-                    TÌM KIẾM</button>
+            <form>
+                <input type="text" placeholder="Nhập địa điểm du lịch" name="search" class="text-placeholder">
+                <!-- <i class="fa fa-search"></i>  -->
+                <button type="submit" class="button">TÌM KIẾM</button>
 
-            </div>
+            </form>
         </div>
 
         <div class="right">
-            <img src="img/108613_48f949cd.png" srcset="img/108613_48f949cd@2x.png 2x,
+            <img src="img/anh.png" srcset="img/108613_48f949cd@2x.png 2x,
                      img/108613_48f949cd@3x.png 3x">
         </div>
 
     </div>
     </div>
-
-
-    <div>
-        <nav>
-            <ul class="menubar">
-                <li> <img src="img/travel_solid_orange.png" srcset="img/travel_solid_orange@2x.png 2x,
-                            img/travel_solid_orange@3x.png 3x" class="travel_solid_orange"><a href="">Tham quan</a>
-                </li>
-                <li> <img src="img/Restaurant.png" srcset="img/Restaurant@2x.png 2x,
-                                img/Restaurant@3x.png 3x" class="Restaurant"><a href="">Nhà hàng</a>
-                </li>
-                <li> <img src="img/hotel_solid_orange.png" srcset="img/hotel_solid_orange@2x.png 2x,
-                    img/hotel_solid_orange@3x.png 3x" class="hotel_solid_orange"><a href="">Khách sạn</a>
-                </li>
-                <i class="fa fa-th-large" aria-hidden="true"></i>
-                <i class="fa fa-list" aria-hidden="true"></i>
+    <div class="menu__duoi">
+        <div class="menu__list">
+            <ul >
+                <li ><a href="#">Tham quan</a></li>
+                <li><a href="#">Nhà hàng</a></li>
+                <li><a href="#">Khách sạn</a></li>
             </ul>
-        </nav>
+        </div>
+        <!-- <div class="sort">
+            <i class="fa fa-th-large" aria-hidden="true"></i>
+            <i class="fa fa-list" aria-hidden="true"></i>
+        </div> -->
     </div>
+
+
     <div>
         <div class="txt">
             <h2>Khám phá mọi nơi</h2>
@@ -81,111 +77,11 @@
         <div class="img">
             <!-- IMG 1 -->
             <div>
-                <img src="/img/white/Restaurant.png" srcset="img/white/Restaurant@2x.png 2x,
-                img/white/Restaurant@3x.png 3x" class="Restaurant_img_1" alt="">
-                <h3 class="text1">Nhà Hàng Vịnh Hạ Long 01</h3>
-                <img src="/img/img1/Image_01.png" srcset="img/img1/Image_01@2x.png 2x,
-                 img/img1/Image_01@3x.png 3x" alt="">
+                <img src="/img/img1/Image_01.png" alt="">
+                <img src="/img/white/Restaurant.png" class="img-icon" alt="">
+                <h3 class="text-placeimg">Nhà Hàng Vịnh Hạ Long 01</h3>
             </div>
 
-            <!-- IMG 2 -->
-            <div>
-                <img src="/img/white/travel_solid_orange.png" srcset="img/white/travel_solid_orange@2x.png 2x,
-                img/white/travel_solid_orange@3x.png 3x" class="travel_img_1" alt="">
-                <h3 class="text1">Tây Nguyên Sơn La</h3>
-                <img src="/img/img2/Image_01.png" srcset="img/img2/Image_01@2x.png 2x,
-               img/img2/Image_01@3x.png 3x" alt="">
-            </div>
-
-            <!-- IMG 3 -->
-            <div>
-                <img src="/img/white/travel_solid_orange.png" srcset="img/white/travel_solid_orange@2x.png 2x,
-                img/white/travel_solid_orange@3x.png 3x" class="travel_img_2" alt="">
-                <h3 class="text1">Nha Trang Ngày Hè</h3>
-                <img src="/img/img3/Image_01.png" srcset="img/img3/Image_01@2x.png 2x,
-                img/img3/Image_01@3x.png 3x" alt="">
-            </div>
-
-            <!-- IMG 4 -->
-            <div>
-                <img src="/img/white/hotel_solid_orange.png" srcset="img/white/hotel_solid_orange@2x.png 2x,
-                img/white/hotel_solid_orange@3x.png 3x" class="hotel_img_1" alt="">
-                <h3 class="text1">Nhà Nghỉ Quảng Bình</h3>
-                <img src="/img/img4/Image_01.png" srcset="img/img4/Image_01@2x.png 2x,
-                img/img4/Image_01@3x.png 3x" alt="">
-            </div>
-
-            <!-- IMG 5 -->
-            <div>
-                <img src="/img/white/hotel_solid_orange.png" srcset="img/white/hotel_solid_orange@2x.png 2x,
-                img/white/hotel_solid_orange@3x.png 3x" class="hotel_img_2" alt="">
-                <h3 class="text1">Khách sạn Triều Châu</h3>
-                <img src="/img/img5/Image_01.png" srcset="img/img5/Image_01@2x.png 2x,
-                img/img5/Image_01@3x.png 3x" alt="">
-            </div>
-
-            <!-- IMG 6 -->
-            <div>
-                <img src="/img/white/travel_solid_orange.png" srcset="img/white/travel_solid_orange@2x.png 2x,
-                img/white/travel_solid_orange@3x.png 3x" class="travel_img_2" alt="">
-                <h3 class="text1">Vịnh Biển Lăng Cô</h3>
-                <img src="/img/img6/Image_01.png" srcset="img/img6/Image_01@2x.png 2x,
-                img/img6/Image_01@3x.png 3x" alt="">
-            </div>
-
-            <!-- IMG 7 -->
-            <div>
-                <img src="/img/white/Restaurant.png" srcset="img/white/Restaurant@2x.png 2x,
-                img/white/Restaurant@3x.png 3x" class="Restaurant_img" alt="">
-                <h3 class="text1">Restaurant Phuoc Nguyen</h3>
-                <img src="/img/img7/Image_01.png" srcset="img/img7/Image_01@2x.png 2x,
-                 img/img7/Image_01@3x.png 3x" alt="">
-            </div>
-
-            <!-- IMG 8 -->
-            <div>
-                <img src="/img/white/Restaurant.png" srcset="img/white/Restaurant@2x.png 2x,
-                img/white/Restaurant@3x.png 3x" class="Restaurant_img_2" alt="">
-                <h3 class="text1">Nhà Hàng An Phước</h3>
-                <img src="/img/img8/Image_01.png" srcset="img/img8/Image_01@2x.png 2x,
-                 img/img8/Image_01@3x.png 3x" alt="">
-            </div>
-
-            <!-- IMG 9 -->
-            <div>
-                <img src="/img/white/travel_solid_orange.png" srcset="img/white/travel_solid_orange@2x.png 2x,
-                img/white/travel_solid_orange@3x.png 3x" class="travel_img_2" alt="">
-                <h3 class="text1">Biển Quy Nhơn</h3>
-                <img src="/img/img9/Image_01.png" srcset="img/img9/Image_01@2x.png 2x,
-                img/img9/Image_01@3x.png 3x" alt="">
-            </div>
-
-            <!-- IMG 10 -->
-            <div>
-                <img src="/img/white/hotel_solid_orange.png" srcset="img/white/hotel_solid_orange@2x.png 2x,
-                img/white/hotel_solid_orange@3x.png 3x" class="hotel_img_2" alt="">
-                <h3 class="text1">Hotel La Perle Hue</h3>
-                <img src="/img/img10/Image_01.png" srcset="img/img10/Image_01@2x.png 2x,
-                img/img10/Image_01@3x.png 3x" alt="">
-            </div>
-
-            <!-- IMG 11 -->
-            <div>
-                <img src="/img/white/Restaurant.png" srcset="img/white/restaurant@2x.png 2x,
-                img/white/restaurant@3x.png 3x" class="Restaurant_img" alt="">
-                <h3 class="text1">Nhà Hàng Vịnh Hạ Long 01</h3>
-                <img src="/img/img11/Image_01.png" srcset="img/img11/image_01@2x.png 2x,
-                 img/img11/image_01@3x.png 3x" alt="">
-            </div>
-
-            <!-- IMG 12  -->
-            <div>
-                <img src="/img/white/hotel_solid_orange.png" srcset="img/white/hotel_solid_orange@2x.png 2x,
-                img/white/hotel_solid_orange@3x.png 3x" class="hotel_img_2" alt="">
-                <h3 class="text1">Khách sạn Mường Thanh Holiday</h3>
-                <img src="/img/img12/Image_01.png" srcset="img/img12/image_01@2x.png 2x,
-                img/img12/image_01@3x.png 3x" alt="">
-            </div>
         </div>
     </div>
     <div>
