@@ -97,12 +97,18 @@ padding: 0px 2px;
   margin-left: 112px;
   color: #373737;
 }
+.search_box{
+    position: relative;
+    width: 565px;
+    height: 60px;
 
+}
 .text-placeholder{  
+    position: absolute;
     margin-left: 112px;
     width: 407px;
     height: 60px;
-    border-radius: 89px;
+    border-radius:89px 0 0 89px;
     box-shadow: 2px 4px 10px 0 #00000026;
     border: solid 1px #ffffff;
     background-color: #ffffff;    
@@ -111,15 +117,15 @@ padding: 0px 2px;
     font-style: italic;
     color: #989898;
 }
-.button { 
-
+.submit { 
+    position: absolute;
     color: #ffffff;
-    border-radius: 89px;
+    border-radius:0 89px 89px 0;
     box-shadow: 2px 4px 10px 0 #00000026;
     border: solid 1px #2d77b6;
     width: 178px;
-    float: right;
     height: 60px;
+    right: 0;
     background-color: #2d77b6;
 }
 .menu__duoi{
@@ -133,6 +139,31 @@ padding: 0px 2px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+.header__nav-item-list{
+    list-style: none;
+    margin: 0 0 0 50px;
+    padding: 0;
+    margin-top: 0;
+    display: flex;
+}      
+.header__nav-item-list li{
+    display: inline-block;
+    padding: 0px 20px;
+    }
+.header__nav-item-list li a{
+    transition: all 0.3s ease 0s;
+}
+.header__nav-item-list li a:hover{
+        color: #2d77b6    ;
+    }
+
+.header__nav-item{
+    margin-left: 0; 
+
+  }  
+.header__nav-item-list:hover a{
+        color: rgba(0, 0, 0, 1);
 }
 
   

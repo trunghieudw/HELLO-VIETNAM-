@@ -6,59 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DashboardHelloVN</title>
     <link rel="stylesheet" href=style.css>
-   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
 
 </head>
 
 <body>
-   
-    <div class="wrapper">
-        <div class="left">
-            <div class="header">
-                <a href="">
-                    <img src="logo.png" alt="" class="logo">
-                </a>
-                <nav>
-                    <ul class="menu">
-                        <li><a href="#">Trang Chủ</a></li>
-                        <li><a href="#">Bộ sưu tập</a></li>
-                        <li><a href="#">Ứng dụng</a></li>
-                    </ul>
-                </nav>
-                <div class="group_flag">
-                    <img src="img/Group 471.png" srcset="img/Group 471@2x.png 2x,
+    <div class="container-fluid">
+        <div class="wrapper">
+            <div class="left">
+                <div class="header">
+                    <a href="">
+                        <img src="logo.png" alt="" class="logo">
+                    </a>
+                    <nav>
+                        <ul class="menu">
+                            <li><a href="#">Trang Chủ</a></li>
+                            <li><a href="#">Bộ sưu tập</a></li>
+                            <li><a href="#">Ứng dụng</a></li>
+                        </ul>
+                    </nav>
+                    <div class="group_flag">
+                        <img src="img/Group 471.png" srcset="img/Group 471@2x.png 2x,
                     img/Group 471@3x.png 3x">
-                    <p>VI</p>
-                    <p>|</p>
-                    <img src="img/Mask Group 2.png" srcset="img/Mask Group 2@2x.png,
+                        <p>VI</p>
+                        <p>|</p>
+                        <img src="img/Mask Group 2.png" srcset="img/Mask Group 2@2x.png,
                       img/Mask Group 2@3x.png">
-                    <p>EN</p>
+                        <p>EN</p>
+                    </div>
+                </div class="header">
+                <div>
+                    <p class="p1_title">Danh sách mà bạn cần</p>
+                    <h1 class="h1_title">Những điểm du lịch, nhà hàng, khách sạn mà bạn cần biết</h1>
                 </div>
-            </div class="header">
-            <div>
-                <p class="p1_title">Danh sách mà bạn cần</p>
-                <h1 class="h1_title">Những điểm du lịch, nhà hàng, khách sạn mà bạn cần biết</h1>
+                <div class="search_box">
+                    <form>
+                        <input type="text" placeholder="Nhập địa điểm du lịch" name="search" class="text-placeholder">
+                        <!-- <i class="fa fa-search"></i>  -->
+                        <input type="submit" value="TÌM KIẾM" class="submit">
+                        
+
+                    </form>
+                </div>
             </div>
-            <form>
-                <input type="text" placeholder="Nhập địa điểm du lịch" name="search" class="text-placeholder">
-                <!-- <i class="fa fa-search"></i>  -->
-                <button type="submit" class="button">TÌM KIẾM</button>
 
-            </form>
+            <div class="right">
+                <img src="img/anh.png" srcset="img/108613_48f949cd@2x.png 2x,
+                     img/108613_48f949cd@3x.png 3x" class="">
+            </div>
+
         </div>
-
-        <div class="right">
-            <img src="img/anh.png" srcset="img/108613_48f949cd@2x.png 2x,
-                     img/108613_48f949cd@3x.png 3x">
-        </div>
-
     </div>
     </div>
+
     <div class="menu__duoi">
         <div class="menu__list">
-            <ul >
-                <li ><a href="#">Tham quan</a></li>
+            <ul>
+                <li><a href="#">Tham quan</a></li>
                 <li><a href="#">Nhà hàng</a></li>
                 <li><a href="#">Khách sạn</a></li>
             </ul>
