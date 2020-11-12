@@ -108,7 +108,6 @@ padding: 0px 2px;
   margin-left: 112px;
   color: #373737;
 }
-
 .text-placeholder{  
    padding: 20px 0 20px 34px;
    width: 407px;
@@ -126,6 +125,11 @@ padding: 0px 2px;
 .iconsearch{
     color: #ffffff;
 }
+.timkiem{
+    color: #ffffff;
+    outline: none;
+}
+
 .submit{
     padding: 22px 48px 20px 22px;
     margin: 0 0 0 -5px;
@@ -134,15 +138,13 @@ padding: 0px 2px;
     border: solid 1px #ffffff;
     background-color: #2d77b6;    
     font-family: Roboto;
-    font-size: 14px;    
-    color: #989898;
+    font-size: 14px;     
     outline: none;
 }
 
 .menu__duoi{
     display: flex;
     align-items: center;
-    width: 100%;
     margin: 0 30px 0;
     padding: 0;
 }
@@ -151,31 +153,7 @@ padding: 0px 2px;
     justify-content: flex-start;
     align-items: center;
 }
-.header__nav-item-list{
-    list-style: none;
-    margin: 0 0 0 50px;
-    padding: 0;
-    margin-top: 0;
-    display: flex;
-}      
-.header__nav-item-list li{
-    display: inline-block;
-    padding: 0px 20px;
-    }
-.header__nav-item-list li a{
-    transition: all 0.3s ease 0s;
-}
-.header__nav-item-list li a:hover{
-        color: #2d77b6    ;
-    }
 
-.header__nav-item{
-    margin-left: 0; 
-
-  }  
-.header__nav-item-list:hover a{
-        color: rgba(0, 0, 0, 1);
-}
 .menu__duoi{
     list-style: none;
     display: flex;
@@ -184,7 +162,6 @@ padding: 0px 2px;
 }
 
 .menubar{
-    justify-content: flex-start;
     color: #373737;
   text-align: center;
   padding: 50px 40px;
@@ -194,11 +171,11 @@ padding: 0px 2px;
   
 }
 .square_sort {
-    float: right;
+
+
     color: black;
-    padding: 16px 10px;
-    justify-content: flex-end;
-    
+    padding: 0 5px ;
+
 }
 
 
