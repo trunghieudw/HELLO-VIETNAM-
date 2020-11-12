@@ -1,5 +1,6 @@
 @import url('https://fonts.google.com/specimen/Playfair+Display#standard-styles');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 
 /* *{
@@ -17,9 +18,13 @@
     background-position: right;
 }
 
+
 .header a,p{
     font-family: "Roboto",Regular;
-    font-weight: 500;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+
     font-size: 16px;
     color: #5d5d5d    ;
     text-decoration: none;
@@ -28,7 +33,7 @@
     display: flex;
     justify-content:flex-start ;
     align-items: center;
-    padding: 20px 10%;
+    padding:  20px 63px;
 }
 .logo{
     cursor: pointer;
@@ -40,18 +45,31 @@
     padding: 0;
     list-style: none;
 }
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 45px;
+}
 .menu li{
 display: inline-block;
-padding: 0px 10px;
+padding: 0px 10px 0 0;
 justify-content: center;
+
 }
 .menu li a{
     transition: all 0.3s ease 0s;
+    
 }
 .menu li a:hover{
+    line-height: 1.19;
+
     color: #2d77b6    ;
 }
-
+li:nth-child(4) ::after {
+    content: "|";
+    
+}
 
 /* flag */
 .group_flag{
@@ -71,17 +89,17 @@ padding: 0px 2px;
 .wrapper{
     display: flex;
 }
+.left{
+    width: 46%;
+}
 .right{
-    width: 100%;
+    width: 54%;
     display: flex;
-    flex: 54.3%;
-    margin: 3px;
-    padding: 3px;
     object-fit: contain;
+    overflow: hidden;
 }
 .p1_title{
-    width: 301px;
-  height: 37px;
+
   font-family: Roboto;
   font-size: 30px;
   font-weight: 300;
@@ -95,8 +113,7 @@ padding: 0px 2px;
   color: #5d5d5d;
 }
 .h1_title{
-    width: 598px;
-  height: 209px;
+
   font-family: PlayfairDisplay;
   font-size: 52px;
   font-weight: bold;
@@ -109,14 +126,14 @@ padding: 0px 2px;
   color: #373737;
 }
 .text-placeholder{  
-   padding: 20px 0 20px 34px;
-   width: 407px;
+   padding: 10px 150px 10px 50px;
     margin: 0 0 0 119px;
     border-radius:89px 0 0 89px;
     box-shadow: 2px 4px 10px 0 #00000026;
     border: solid 1px #ffffff;
     background-color: #ffffff;    
     font-family: Roboto;
+    font-weight: 300;
     font-size: 16px;
     font-style: italic;
     color: #989898;
@@ -125,23 +142,19 @@ padding: 0px 2px;
 .iconsearch{
     color: #ffffff;
 }
-.timkiem{
-    color: #ffffff;
-    outline: none;
-}
-
-.submit{
-    padding: 22px 48px 20px 22px;
+.submitbtn{
+    padding: 11px 50px 12px 22px;
     margin: 0 0 0 -5px;
     border-radius:0px 89px 89px 0px;
     box-shadow: 2px 4px 10px 0 #00000026;
     border: solid 1px #ffffff;
     background-color: #2d77b6;    
     font-family: Roboto;
+    font-weight: 500;
     font-size: 14px;     
     outline: none;
+    color: #ffffff;
 }
-
 .menu__duoi{
     display: flex;
     align-items: center;
