@@ -1,12 +1,14 @@
 @import url('https://fonts.google.com/specimen/Playfair+Display#standard-styles');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-*{
+
+/* *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-}
+} */
+
 .anhbanner img{
     max-width: 100%;
     height: auto;
@@ -31,14 +33,17 @@
 .logo{
     cursor: pointer;
     margin: auto;
-    left: 120px;
+   
 }
 .menu{
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 .menu li{
 display: inline-block;
-padding: 0px 20px;
+padding: 0px 10px;
+justify-content: center;
 }
 .menu li a{
     transition: all 0.3s ease 0s;
@@ -46,6 +51,7 @@ padding: 0px 20px;
 .menu li a:hover{
     color: #2d77b6    ;
 }
+
 
 /* flag */
 .group_flag{
@@ -65,17 +71,10 @@ padding: 0px 2px;
 .wrapper{
     display: flex;
 }
-
-.left{
-    width: 878px;
-    height: 753px;
-}
 .right{
-    
-   width: 1042px;
-    min-height: 753px;
-    max-height: auto;
-
+    width: 100%;
+    display: flex;
+    flex: 54.3%;
     margin: 3px;
     padding: 3px;
     object-fit: contain;
@@ -91,7 +90,7 @@ padding: 0px 2px;
   line-height: 1.23;
   letter-spacing: normal;
   text-align: left;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 112px;
   color: #5d5d5d;
 }
@@ -109,37 +108,37 @@ padding: 0px 2px;
   margin-left: 112px;
   color: #373737;
 }
-.search_box{
-    position: relative;
-    width: 565px;
-    height: 60px;
 
-}
 .text-placeholder{  
-    position: absolute;
-    margin-left: 112px;
-    width: 407px;
-    height: 60px;
+   padding: 20px 0 20px 34px;
+   width: 407px;
+    margin: 0 0 0 119px;
     border-radius:89px 0 0 89px;
     box-shadow: 2px 4px 10px 0 #00000026;
     border: solid 1px #ffffff;
     background-color: #ffffff;    
     font-family: Roboto;
-     font-size: 16px;
+    font-size: 16px;
     font-style: italic;
     color: #989898;
+    outline: none;
 }
-.submit { 
-    position: absolute;
+.iconsearch{
     color: #ffffff;
-    border-radius:0 89px 89px 0;
-    box-shadow: 2px 4px 10px 0 #00000026;
-    border: solid 1px #2d77b6;
-    width: 178px;
-    height: 60px;
-    right: 0;
-    background-color: #2d77b6;
 }
+.submit{
+    padding: 22px 48px 20px 22px;
+    margin: 0 0 0 -5px;
+    border-radius:0px 89px 89px 0px;
+    box-shadow: 2px 4px 10px 0 #00000026;
+    border: solid 1px #ffffff;
+    background-color: #2d77b6;    
+    font-family: Roboto;
+    font-size: 14px;    
+    color: #989898;
+    outline: none;
+}
+
 .menu__duoi{
     display: flex;
     align-items: center;
