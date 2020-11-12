@@ -7,6 +7,14 @@
     padding: 0;
     background-color: #ffffff;
 }
+.anhbanner img{
+    max-width: 100%;
+    height: auto;
+}
+.anhbanner {
+    background-position: right;
+}
+
 .header a,p{
     font-family: "Roboto",Regular;
     font-weight: 500;
@@ -64,8 +72,12 @@ padding: 0px 2px;
 }
 .right{
     
-    width: auto;
-    height: auto;
+   width: 1042px;
+    min-height: 753px;
+    max-height: auto;
+
+    margin: 3px;
+    padding: 3px;
     object-fit: contain;
 }
 .p1_title{
@@ -165,6 +177,31 @@ padding: 0px 2px;
 .header__nav-item-list:hover a{
         color: rgba(0, 0, 0, 1);
 }
+.menu__duoi{
+    list-style: none;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.menubar{
+    justify-content: flex-start;
+    color: #373737;
+  text-align: center;
+  padding: 50px 40px;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Roboto";  
+  
+}
+.square_sort {
+    float: right;
+    color: black;
+    padding: 16px 10px;
+    justify-content: flex-end;
+    
+}
+
 
   
 
