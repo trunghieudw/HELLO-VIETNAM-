@@ -24,7 +24,6 @@
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
-
     font-size: 16px;
     color: #5d5d5d    ;
     text-decoration: none;
@@ -58,17 +57,23 @@ justify-content: center;
 
 }
 .menu li a{
-    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    /* transition: all 0.3s ease 0s; */
     
 }
 .menu li a:hover{
-    line-height: 1.19;
-
-    color: #2d77b6    ;
+    color: #2d77b6;
+    font-weight: 500;
+    border-bottom: 2px solid #2d77b6;
+    padding-bottom: 1px;
 }
 li:nth-child(4) ::after {
     content: "|";
-    
+    padding: 0 10px 0 15px;
+}
+.icon_sort{
+    background: #2d77b6;
+    padding: 5px;
 }
 
 /* flag */
@@ -94,6 +99,9 @@ padding: 0px 2px;
     width: 46%;
     overflow: hidden;
 }
+.search_box{
+    text-align: center;
+}
 .right{
     width: 54%;
     display: flex;
@@ -110,7 +118,7 @@ padding: 0px 2px;
   line-height: 1.23;
   letter-spacing: normal;
   text-align: left;
-  margin-top: 50px;
+  margin-top: 120px;
   margin-left: 112px;
   color: #5d5d5d;
 }
@@ -128,11 +136,11 @@ padding: 0px 2px;
   color: #373737;
 }
 .text-placeholder{  
-   padding: 10px 150px 10px 50px;
-    margin: 0 0 0 119px;
+   padding: 10px 50px 10px 50px;
+    height: 60px;
     border-radius:89px 0 0 89px;
     box-shadow: 2px 4px 10px 0 #00000026;
-    border: solid 1px #ffffff;
+    border: none;
     background-color: #ffffff;    
     font-family: Roboto;
     font-weight: 300;
@@ -148,17 +156,22 @@ padding: 0px 2px;
     padding: 0 0 0 7px;
 }
 .submitbtn{
-    padding: 11px 50px 12px 22px;
+    padding: 10px 50px 10px 22px;
+    height: 60px;
     margin: 0 0 0 -5px;
     border-radius:0px 89px 89px 0px;
     box-shadow: 2px 4px 10px 0 #00000026;
-    border: solid 1px #ffffff;
+    border: none;
     background-color: #2d77b6;    
     font-family: Roboto;
     font-weight: 500;
     font-size: 14px;     
     outline: none;
     color: #ffffff;
+
+}
+.submitbtn:focus{
+    outline: none;
 }
 .menu__duoi{
     display: flex;
@@ -189,9 +202,7 @@ padding: 0px 2px;
   
 }
 .square_sort {
-
-
-    color: black;
+    color: ;
     padding: 0 5px ;
 
 }
