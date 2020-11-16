@@ -1,0 +1,32 @@
+.container{
+    width: 90%;
+    height: auto;
+    border: 1 px solid red;
+    margin:  0 auto;
+    display: flex;
+}
+.left{
+    width: 70%;
+    height: 300px;
+    border: 1px solid black;
+    background-color: blanchedalmond ;
+}
+.right{
+    width: 30%;
+    height: 300px;
+    border: 1px solid black;
+    background-color: tomato;
+}
+@media only screen and (max-width: 600px){
+    .container{
+        display: block;
+    }
+    .left{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .right{
+        margin: 0 auto;
+        width: 100%;
+    }
+}

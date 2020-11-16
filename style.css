@@ -17,8 +17,6 @@
 .anhbanner {
     background-position: right;
 }
-
-
 .header a,p{
     font-family: "Roboto",Regular;
     font-weight: 300;
@@ -36,8 +34,7 @@
 }
 .logo{
     cursor: pointer;
-    margin: auto;
-   
+    margin: auto;   
 }
 .menu{
     margin: 0;
@@ -106,7 +103,6 @@ padding: 0px 2px;
     overflow: hidden;
 }
 .p1_title{
-
   font-family: "Roboto";
   font-size: 30px;
   font-weight: 300;
@@ -115,8 +111,8 @@ padding: 0px 2px;
   line-height: 1.23;
   letter-spacing: normal;
   text-align: left;
-  margin-top: 120px;
-  margin-left: 112px;
+  padding: 139px 0 0 119px;
+  margin-bottom: 10px;
   color: #5d5d5d;
 }
 .h1_title{
@@ -128,8 +124,12 @@ padding: 0px 2px;
   line-height: 1.35;
   letter-spacing: normal;
   text-align: left;
-  margin-left: 112px;
+  padding: 0 36.5px 0 119px;
+  margin-bottom: 45px;
   color: #373737;
+}
+.search_box {
+    flex-wrap: nowrap;
 }
 .text-placeholder{  
    padding: 10px 50px 10px 50px;
@@ -236,6 +236,35 @@ padding: 0px 2px;
 .img_lst{
     /* position: relative;     */
     margin: 50px 24px 24px 120px;
+
+}
+/* .wrapper{
+    width: 90%;
+    height: auto;
+    border: 1 px solid red;
+    margin:  0 auto;
+    display: flex;
+}
+.left{
+    width: 46%;
+    height: 300px;   
+}
+.right{
+    width: 54%;
+    height: 300px;  
+} */
+@media only screen and (max-width: 1200px){
+    .wrapper{
+        display: block;
+    }
+    .right{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .left{
+        width: 100%;
+        margin: 0 auto;
+    }
 
 }
 /* .img_icon{
