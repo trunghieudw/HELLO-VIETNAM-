@@ -107,7 +107,7 @@ padding: 0px 2px;
 }
 .p1_title{
 
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 30px;
   font-weight: 300;
   font-stretch: normal;
@@ -120,8 +120,7 @@ padding: 0px 2px;
   color: #5d5d5d;
 }
 .h1_title{
-
-  font-family: PlayfairDisplay;
+  font-family: "PlayfairDisplay";
   font-size: 52px;
   font-weight: bold;
   font-stretch: normal;
@@ -195,9 +194,10 @@ padding: 0px 2px;
   padding: 50px 40px;
   text-decoration: none;
   font-size: 24px;
+  font-weight: 500;
   font-family: "Roboto";  
   
-}
+}    
 .icon1{
     background: #E9E9E9;
     padding: 10px;
@@ -206,6 +206,44 @@ padding: 0px 2px;
     background: #2d77b6;
     color: #ffffff;
 }
+.txt h2{
+    font-family: "PlayfairDisplay";
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  color: #373737;      
+  margin: 0 20.5px 50px 120px;
+}
+.txt ::after {
+    content: "-";
+}
+.img_lst{
+    position: relative;    
+    margin: 50px 24px 24px 120px;
+
+}
+.img_icon{
+    position: absolutes;
+    background: black;
+    margin:0 -350px  ;
+
+}
+
+.text-placeing h3{
+    font-family: PlayfairDisplay;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+    color: #ffffff
+}
+
 
 
   
