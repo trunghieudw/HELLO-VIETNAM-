@@ -30,7 +30,7 @@
     display: flex;
     justify-content:flex-start ;
     align-items: left;
-    padding:  20px 63px;
+    /* padding:  20px 63px; */
 }
 .logo{
     cursor: pointer;
@@ -46,6 +46,7 @@
     justify-content: space-between;
     padding-left: 70px;
     flex-wrap: wrap;
+    margin-bottom: 150px;
 }
 .menu li{
 display: inline-block;
@@ -54,19 +55,13 @@ justify-content: center;
 
 }
 .menu li a{
-    text-decoration: none;
-    /* transition: all 0.3s ease 0s; */
-    
+    text-decoration: none;    
 }
 .menu li a:hover{
     color: #2d77b6;
     font-weight: 500;
     border-bottom: 2px solid #2d77b6;
     padding-bottom: 1px;
-}
- li:nth-child(4) ::after {
-    content: "|";
-    padding: 0 15px 0 15px;
 }
 
 
@@ -93,10 +88,10 @@ justify-content: center;
 .left{
     width: 46%;
     overflow: hidden;
-
-
-  
+    padding: 20px 63px 0 119px;
+    
 }
+
 .search_box{
     text-align: center;
 }
@@ -199,17 +194,28 @@ justify-content: center;
   font-family: "Roboto";  
   
 }   
-.menu__list a:nth-child(2) ::after {
-    content: "|";
-    padding: 0 50px 0 50px;
-    color: #cccccc;
-    height: 50px;
+.menu__list {
+    position: relative;
 }
-.menu__list a:nth-child(3) ::after {
-    content: "|";
-    padding: 0 50px 0 50px;
-    color: #cccccc;
-    height: 50px;
+.menu__list a:nth-child(1) ::after {
+    content: '';
+    width: 1px;
+    height: 10px;
+    background-color: #cccccc;
+    position: absolute;
+    margin: 0 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.menu__list a:nth-child(2) ::after {
+    content: '';
+    width: 1px;
+    height: 10px;
+    background-color: #cccccc;
+    position: absolute;
+    margin: 0 15px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .icon1{
@@ -253,20 +259,34 @@ justify-content: center;
     width: 54%;
     height: 300px;  
 } */
-@media only screen and (max-width: 1200px){
-    .wrapper{
-        display: block;
-    }
-    .right{
-        margin: 0 auto;
-        width: 100%;
-    }
-    .left{
-        width: 100%;
-        margin: 0 auto;
-    }
-
+.menu .icon {
+    display: none;
 }
+@media screen and (max-width: 1200px) {
+    .header li:not(:first-child) {display: none;}
+    .languages {display: none;}
+    .menu a.icon {
+      float: right;
+      display: block;
+    }
+    .timkiem{
+        display: none;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .menu.responsive {position: relative;}
+    .menu.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .menu.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
 /* .img_icon{
     position: absolutes;
     background: black;
