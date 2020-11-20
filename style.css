@@ -1,14 +1,6 @@
 @import url('https://fonts.google.com/specimen/Playfair+Display#standard-styles');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
-/* *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-} */
-
 .anhbanner img {
     max-width: 100%;
     height: auto;
@@ -181,8 +173,11 @@ p {
 .menu__duoi {
     display: flex;
     align-items: center;
-    margin: 41px 120px 0;
-    padding: 0;
+    margin: 0 0px 0;
+    height: 110px;
+    padding: 0 120px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 4px 10px 0 #00000026;
 }
 
 .menu__list {
@@ -193,7 +188,7 @@ p {
 }
 
 .menu__list li {
-    margin: 0 100px;
+    margin: 0 50px;
 }
 
 .menu__list li:nth-child(1) ::after {
@@ -202,7 +197,7 @@ p {
     height: 30px;
     background-color: #cccccc;
     position: absolute;
-    margin: 0 100px;
+    margin: 0 50px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -213,7 +208,7 @@ p {
     height: 30px;
     background-color: #cccccc;
     position: absolute;
-    margin: 0 100px;
+    margin: 0 50px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -255,17 +250,6 @@ p {
     margin: 63px 0 0 120px;
 }
 
-.menu__list li:nth-child(2) ::after {
-    content: '';
-    width: 1px;
-    height: 30px;
-    background-color: #cccccc;
-    position: absolute;
-    margin: 0 100px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
 .txt {
     position: relative;
 }
@@ -285,23 +269,6 @@ p {
     /* position: relative;     */
     margin: 50px 24px 24px 120px;
 }
-
-
-/* .wrapper{
-    width: 90%;
-    height: auto;
-    border: 1 px solid red;
-    margin:  0 auto;
-    display: flex;
-}
-.left{
-    width: 46%;
-    height: 300px;   
-}
-.right{
-    width: 54%;
-    height: 300px;  
-} */
 
 .menu .icon {
     display: none;
@@ -369,28 +336,4 @@ p {
         display: block;
         text-align: left;
     }
-}
-
-
-/* .img_icon{
-    position: absolutes;
-    background: black;
-    margin:0 -350px  ;
-
-} */
-
-.text-placeing h3 {
-    font-family: PlayfairDisplay;
-    font-size: 24px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 3.13;
-    letter-spacing: normal;
-    text-align: left;
-}
-
-.text-placeing h3 {
-    position: absolute;
-    top: 100px;
 }
