@@ -252,11 +252,33 @@ p {
     font-style: normal;
     text-align: left;
     color: #373737;
-    margin: 0 20.5px 50px 120px;
+    margin: 63px 0 0 120px;
+}
+
+.menu__list li:nth-child(2) ::after {
+    content: '';
+    width: 1px;
+    height: 30px;
+    background-color: #cccccc;
+    position: absolute;
+    margin: 0 100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.txt {
+    position: relative;
 }
 
 .txt ::after {
-    content: "-";
+    content: '';
+    width: 160px;
+    height: 1px;
+    background-color: #cccccc;
+    position: absolute;
+    margin: 0 100px;
+    top: 50%;
+    transform: translateX(-50%);
 }
 
 .img_lst {
