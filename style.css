@@ -43,7 +43,7 @@ p {
     display: flex;
     flex-grow: 1;
     justify-content: space-between;
-    padding-left: 70px;
+    /* padding-left: 70px; */
     flex-wrap: wrap;
     margin-bottom: 150px;
 }
@@ -181,7 +181,7 @@ p {
 .menu__duoi {
     display: flex;
     align-items: center;
-    margin: 0 30px 0;
+    margin: 41px 120px 0;
     padding: 0;
 }
 
@@ -189,6 +189,33 @@ p {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    position: relative;
+}
+
+.menu__list li {
+    margin: 0 100px;
+}
+
+.menu__list li:nth-child(1) ::after {
+    content: '';
+    width: 1px;
+    height: 30px;
+    background-color: #cccccc;
+    position: absolute;
+    margin: 0 100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menu__list li:nth-child(2) ::after {
+    content: '';
+    width: 1px;
+    height: 30px;
+    background-color: #cccccc;
+    position: absolute;
+    margin: 0 100px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .menu__duoi {
@@ -201,37 +228,10 @@ p {
 .menubar {
     color: #373737;
     text-align: center;
-    padding: 50px 40px;
     text-decoration: none;
     font-size: 24px;
     font-weight: 500;
     font-family: "Roboto";
-}
-
-.menu__list {
-    position: relative;
-}
-
-.menu__list a:nth-child(1) ::after {
-    content: '';
-    width: 1px;
-    height: 10px;
-    background-color: #cccccc;
-    position: absolute;
-    margin: 0 15px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.menu__list a:nth-child(2) ::after {
-    content: '';
-    width: 1px;
-    height: 10px;
-    background-color: #cccccc;
-    position: absolute;
-    margin: 0 15px;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 .icon1 {
