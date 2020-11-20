@@ -337,3 +337,16 @@ p {
         text-align: left;
     }
 }
+
+
+/* list img */
+
+.imglist {
+    margin: 50px 24px 24px 120px;
+}
+
+
+/* .icon_imglist {
+    position: absolute;
+    margin: 400px;
+} */
