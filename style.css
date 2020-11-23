@@ -1,5 +1,51 @@
 @import url('https://fonts.google.com/specimen/Playfair+Display#standard-styles');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    display: block;
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner__left ul {
+    list-style: none;
+}
+
+.banner__left li a {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+}
+
+.banner__left ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 0 10px;
+    margin-top: 0;
+}
+
+.banner__left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 50%;
+}
+
+.banner__right img {
+    display: block;
+    max-width: 1072px;
+    max-height: 752px;
+    width: auto;
+    height: auto;
+}
+
+@import url('https://fonts.google.com/specimen/Playfair+Display#standard-styles');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 .anhbanner img {
     max-width: 100%;
@@ -232,6 +278,7 @@ p {
 .icon1 {
     background: #E9E9E9;
     padding: 10px;
+    margin-right: 5px;
 }
 
 .icon_sort i:hover {
@@ -261,7 +308,7 @@ p {
     background-color: #cccccc;
     position: absolute;
     margin: 0 100px;
-    top: 50%;
+    top: 55%;
     transform: translateX(-50%);
 }
 
@@ -274,7 +321,7 @@ p {
     display: none;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1350px) {
     .header li:not(:first-child) {
         display: none;
     }
@@ -290,7 +337,7 @@ p {
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1350px) {
     .menu.responsive {
         position: relative;
     }
@@ -341,40 +388,29 @@ p {
 
 /* list img */
 
-.father {
+.father_listimg {
     display: flex;
-    flex-wrap: wrap;
-    margin: 50px 0 0 0;
+    display: grid;
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
 }
 
-.father1 {
-    display: flex;
-    flex: 25%;
-}
-
-.imglistleft {
+.imglist {
     position: relative;
-    margin: 0px 24px 24px 120px;
+    margin: 0px 24px 24px 0px;
 }
 
-.imglistcenter {
-    position: relative;
-    margin: 0px 24px 24px 0;
-}
-
-.imglistright {
-    position: relative;
-    margin: 0px 120px 24px 0px;
-}
-
-.abc {
+.icon_imglist {
     position: absolute;
     top: 0px;
     margin: 400px 0 70px 30px;
     object-fit: contain;
 }
 
-.abc1 h3 {
+.text_imglist h3 {
     position: absolute;
     top: 0px;
     margin: 450px 0 20px 30px;
@@ -393,8 +429,8 @@ p {
     border: solid 1px #2d77b6;
     background-color: #ffffff;
     color: #2d77b6;
-    margin: 50px 876px 69px 876px;
-    padding: 17px 38px 16px 38px;
+    margin: 50px 876px 0px 682px;
+    padding: 17px 38px 16px;
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
