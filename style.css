@@ -1,5 +1,5 @@
-@import url('https://fonts.google.com/specimen/Playfair+Display#standard-styles');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 body {
     display: block;
     width: 100%;
@@ -17,6 +17,7 @@ body {
     font-family: "Roboto";
     font-size: 16px;
     font-style: normal;
+    font-weight: normal;
     color: #000000;
     text-align: center;
     text-decoration: none;
@@ -44,9 +45,6 @@ body {
     height: auto;
 }
 
-@import url('https://fonts.google.com/specimen/Playfair+Display#standard-styles');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 .anhbanner img {
     max-width: 100%;
     height: auto;
@@ -56,8 +54,7 @@ body {
     background-position: right;
 }
 
-.header a,
-p {
+.header a {
     font-family: "Roboto", Regular;
     font-weight: 300;
     font-stretch: normal;
@@ -108,6 +105,8 @@ p {
 
 .languages {
     position: relative;
+    list-style: none;
+    /* display: flex; */
 }
 
 .languages img {
@@ -125,7 +124,7 @@ p {
     background-color: #cccccc;
     position: absolute;
     margin: 0 15px;
-    top: 40%;
+    top: 5%;
     transform: translateY(-50%);
 }
 
@@ -150,7 +149,7 @@ p {
 }
 
 .p1_title {
-    font-family: "Roboto";
+    font-family: "Roboto", Light;
     font-size: 30px;
     font-weight: 300;
     font-stretch: normal;
@@ -162,7 +161,7 @@ p {
 }
 
 .h1_title {
-    font-family: "PlayfairDisplay";
+    font-family: "PlayfairDisplay", Bold;
     font-size: 52px;
     font-weight: bold;
     font-stretch: normal;
@@ -186,7 +185,7 @@ p {
     box-shadow: 2px 4px 10px 0 #00000026;
     border: none;
     background-color: #ffffff;
-    font-family: Roboto;
+    font-family: "Roboto", LightItalic;
     font-weight: 300;
     font-size: 16px;
     font-style: italic;
@@ -210,7 +209,7 @@ p {
     box-shadow: 2px 4px 10px 0 #00000026;
     border: none;
     background-color: #2d77b6;
-    font-family: Roboto;
+    font-family: "Roboto", Medium;
     font-weight: 500;
     font-size: 14px;
     outline: none;
@@ -240,6 +239,10 @@ p {
 
 .menu__list li {
     margin: 0 50px;
+}
+
+.menu__list li a {
+    margin-top: 10px;
 }
 
 .menu__list li:nth-child(1) ::after {
@@ -277,7 +280,8 @@ p {
     text-decoration: none;
     font-size: 24px;
     font-weight: 500;
-    font-family: "Roboto";
+    font-family: "Roboto", Medium;
+    font-style: normal;
 }
 
 .icon1 {
@@ -292,7 +296,7 @@ p {
 }
 
 .txt h2 {
-    font-family: "PlayfairDisplay";
+    font-family: "PlayfairDisplay", Bold;
     font-size: 36px;
     font-weight: bold;
     font-stretch: normal;
@@ -404,6 +408,7 @@ p {
 .imglist {
     position: relative;
     margin: 0px 24px 24px 0px;
+    box-shadow: 2px 4px 10px 0 #00000026;
 }
 
 .icon_imglist {
@@ -420,7 +425,7 @@ p {
     /* margin: 450px 0 20px 30px; */
     width: 295px;
     height: 32px;
-    font-family: PlayfairDisplay;
+    font-family: "PlayfairDisplay", Bold;
     font-size: 24px;
     font-weight: bold;
     letter-spacing: normal;
@@ -434,9 +439,10 @@ p {
     background-color: #ffffff;
     color: #2d77b6;
     padding: 17px 38px 16px;
-    font-family: Roboto;
+    font-family: "Roboto", Medium;
     font-size: 14px;
     font-weight: 500;
+    font-style: normal;
 }
 
 .buttonload {
@@ -459,16 +465,20 @@ p {
 
 .footer p {
     font-size: 16px;
-    font-family: Roboto;
+    font-family: "Roboto", LightItalic;
     font-weight: 300;
     font-style: italic;
     text-align: left;
     color: #ffffff;
 }
 
-.listicon_footer i {
+.listicon_footer a {
     margin: 0 10px 0 0;
     font-size: 16px;
     font-weight: 300;
     color: #ffffff;
+}
+
+.list {
+    color: #f9f9f9;
 }
