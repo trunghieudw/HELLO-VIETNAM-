@@ -34,7 +34,6 @@
 
 .menu li a:hover {
     color: #2d77b6;
-    font-weight: 500;
     border-bottom: 2px solid #2d77b6;
     padding-bottom: 1px;
 }
@@ -74,7 +73,7 @@
 
 .languages span a:hover {
     color: #2d77b6;
-    font-weight: 500;
+  
     border-bottom: 2px solid #2d77b6;
     padding-bottom: 1px;
 }
@@ -347,12 +346,13 @@
 /* list img */
 
 .father-container {
-    margin-left: 120px;
-    margin-right: 120px;
-    margin-top: 50px;
+    
+
+    margin: 50px 75px 24px 90px;
   }
   .imglist {
     position: relative;
+    margin-bottom: 24px;
   }
   
   .father-imglist img {
@@ -361,6 +361,7 @@
   .child-element {
     position: absolute;
     bottom: 5%;
+    width: 100%;
   }
   
   .icon-imglist {

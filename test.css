@@ -4,9 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
 
 .father-container {
-  margin-left: 120px;
-  margin-right: 120px;
-  margin-top: 50px;
+ margin: 50px 90px 24px 90px;
 }
 .imglist {
   position: relative;
@@ -18,6 +16,7 @@
 .child-element {
   position: absolute;
   bottom: 5%;
+  width: 100%;
 }
 
 .icon-imglist {
