@@ -11,42 +11,48 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-    <!-- <script src="reponsiveindex.js"></script> -->
+    <script src="reponsiveindex.js"></script>
 </head>
 
 <body>
     <div class="wrapper">
         <div class="left">
-            <div class="header">
-                <!-- LOGO -->
-                <div class="logo">
-                    <a href="">
-                        <img src="logo.png" alt="" />
-                    </a>
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <a href="#" class="navbar-brand"><img src="logo.png"></a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Bộ sưu tập</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Ứng dụng</a>
+                        </li>
+                    </ul>
+                    <div class="languages">
+                        <figure>
+                            <img src="/img/Group 471.png" alt="vie" />
+                            <span><a href="#">VN</a></span>
+                        </figure>
+                        <figure>
+                            <img src="/img/Mask Group 2.png" alt="" />
+                            <span><a href="#">EN</a></span>
+                        </figure>
+                    </div>
                 </div>
-                <!-- MENU -->
-                <ul class="menu" id="myTopnav">
-                    <li><a href="#">Trang Chủ</a></li>
-                    <li><a href="#">Bộ sưu tập</a></li>
-                    <li><a href="#">Ứng dụng</a></li>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fas fa-bars"></i>
-                    </a>
-                    <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a> -->
-                </ul>
-                <!-- LANGUAGES -->
-                <div class="languages">
-                    <figure>
-                        <img src="/img/Group 471.png" alt="vie" />
-                        <span><a href="#">VN</a></span>
-                    </figure>
-                    <figure>
-                        <img src="/img/Mask Group 2.png" alt="" />
-                        <span><a href="#">EN</a></span>
-                    </figure>
-                </div>
-            </div>
-            
+
+            </nav>
+
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
             <p class="p1_title">Danh sách mà bạn cần</p>
             <h1 class="h1_title">
                 Những điểm du lịch, nhà hàng, khách sạn mà bạn cần biết
@@ -55,9 +61,9 @@
                 <input type="text" placeholder="Nhập địa điểm du lịch" name="search" class="text-placeholder" />
                 <!-- <i class="fa fa-search"></i>  -->
                 <button class="submitbtn">
-            <i class="iconsearch fas fa-search"></i>
-            <span class="timkiem">TÌM KIẾM</span>
-          </button>
+              <i class="iconsearch fas fa-search"></i>
+              <span class="timkiem">TÌM KIẾM</span>
+            </button>
             </div>
         </div>
 
@@ -94,171 +100,171 @@
         </div>
         <div class="container-fluid">
             <div class="father-container">
-              <div class="row">
-                <!-- list 1 -->
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                  <div class="imglist">
-                    <figure class="father-imglist">
-                      <img src="/img/img1/Image_01.png" alt="" class="" />
-                    </figure>
-                    <div class="child-element">
-                      <figure class="icon-imglist">
-                        <img src="/img/white/Restaurant.png" alt="" />
-                      </figure>
-                      <h3 class="text-imglist">Nhà Hàng Vịnh Hạ Long 01</h3>
+                <div class="row">
+                    <!-- list 1 -->
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="imglist">
+                            <figure class="father-imglist">
+                                <img src="/img/img1/Image_01.png" alt="" class="" />
+                            </figure>
+                            <div class="child-element">
+                                <figure class="icon-imglist">
+                                    <img src="/img/white/Restaurant.png" alt="" />
+                                </figure>
+                                <h3 class="text-imglist">Nhà Hàng Vịnh Hạ Long 01</h3>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                  <div class="imglist">
-                    <figure class="father-imglist">
-                      <img src="/img/img2/Image_01.png" alt="" class="" />
-                    </figure>
-                    <div class="child-element">
-                      <figure class="icon-imglist">
-                        <img src="/img/white/travel_solid_orange.png" alt="" />
-                      </figure>
-                      <h3 class="text-imglist">Tây Nguyên Sơn La</h3>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="imglist">
+                            <figure class="father-imglist">
+                                <img src="/img/img2/Image_01.png" alt="" class="" />
+                            </figure>
+                            <div class="child-element">
+                                <figure class="icon-imglist">
+                                    <img src="/img/white/travel_solid_orange.png" alt="" />
+                                </figure>
+                                <h3 class="text-imglist">Tây Nguyên Sơn La</h3>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                  <div class="imglist">
-                    <figure class="father-imglist">
-                      <img src="/img/img3/Image_01.png" alt="" />
-                    </figure>
-                    <div class="child-element">
-                      <figure class="icon-imglist">
-                        <img src="/img/white/Restaurant.png" alt="" />
-                      </figure>
-                      <h3 class="text-imglist">Nha Trang Ngày Hè</h3>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="imglist">
+                            <figure class="father-imglist">
+                                <img src="/img/img3/Image_01.png" alt="" />
+                            </figure>
+                            <div class="child-element">
+                                <figure class="icon-imglist">
+                                    <img src="/img/white/Restaurant.png" alt="" />
+                                </figure>
+                                <h3 class="text-imglist">Nha Trang Ngày Hè</h3>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                  <div class="imglist">
-                    <figure class="father-imglist">
-                      <img src="/img/img4/Image_01.png" alt="" class="" />
-                    </figure>
-                    <div class="child-element">
-                      <figure class="icon-imglist">
-                        <img src="/img/white/hotel_solid_orange.png" alt="" />
-                      </figure>
-                      <h3 class="text-imglist">Nhà Nghỉ Quảng Bình</h3>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="imglist">
+                            <figure class="father-imglist">
+                                <img src="/img/img4/Image_01.png" alt="" class="" />
+                            </figure>
+                            <div class="child-element">
+                                <figure class="icon-imglist">
+                                    <img src="/img/white/hotel_solid_orange.png" alt="" />
+                                </figure>
+                                <h3 class="text-imglist">Nhà Nghỉ Quảng Bình</h3>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <!-- list 2 -->
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                  <div class="imglist">
-                    <figure class="father-imglist">
-                      <img src="/img/img5/Image_01.png" alt="" class="" />
-                    </figure>
-                    <div class="child-element">
-                      <figure class="icon-imglist">
-                        <img src="/img/white/hotel_solid_orange.png" alt="" />
-                      </figure>
-                      <h3 class="text-imglist">Khách sạn Triều Châu</h3>
+                    <!-- list 2 -->
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="imglist">
+                            <figure class="father-imglist">
+                                <img src="/img/img5/Image_01.png" alt="" class="" />
+                            </figure>
+                            <div class="child-element">
+                                <figure class="icon-imglist">
+                                    <img src="/img/white/hotel_solid_orange.png" alt="" />
+                                </figure>
+                                <h3 class="text-imglist">Khách sạn Triều Châu</h3>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                  <div class="imglist">
-                    <figure class="father-imglist">
-                      <img src="/img/img6/Image_01.png" alt="" class="" />
-                    </figure>
-                    <div class="child-element">
-                      <figure class="icon-imglist">
-                        <img src="/img/white/travel_solid_orange.png" alt="" />
-                      </figure>
-                      <h3 class="text-imglist">Vịnh Biển Lăng Cô</h3>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="imglist">
+                            <figure class="father-imglist">
+                                <img src="/img/img6/Image_01.png" alt="" class="" />
+                            </figure>
+                            <div class="child-element">
+                                <figure class="icon-imglist">
+                                    <img src="/img/white/travel_solid_orange.png" alt="" />
+                                </figure>
+                                <h3 class="text-imglist">Vịnh Biển Lăng Cô</h3>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                  <div class="imglist">
-                    <figure class="father-imglist">
-                      <img src="/img/img7/Image_01.png" alt="" />
-                    </figure>
-                    <div class="child-element">
-                      <figure class="icon-imglist">
-                        <img src="/img/white/Restaurant.png" alt="" />
-                      </figure>
-                      <h3 class="text-imglist">Restaurant Phuoc Nguyen</h3>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="imglist">
+                            <figure class="father-imglist">
+                                <img src="/img/img7/Image_01.png" alt="" />
+                            </figure>
+                            <div class="child-element">
+                                <figure class="icon-imglist">
+                                    <img src="/img/white/Restaurant.png" alt="" />
+                                </figure>
+                                <h3 class="text-imglist">Restaurant Phuoc Nguyen</h3>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                  <div class="imglist">
-                    <figure class="father-imglist">
-                      <img src="/img/img8/Image_01.png" alt="" class="" />
-                    </figure>
-                    <div class="child-element">
-                      <figure class="icon-imglist">
-                        <img src="/img/white/Restaurant.png" alt="" />
-                      </figure>
-                      <h3 class="text-imglist">Nhà Hàng An Phước</h3>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="imglist">
+                            <figure class="father-imglist">
+                                <img src="/img/img8/Image_01.png" alt="" class="" />
+                            </figure>
+                            <div class="child-element">
+                                <figure class="icon-imglist">
+                                    <img src="/img/white/Restaurant.png" alt="" />
+                                </figure>
+                                <h3 class="text-imglist">Nhà Hàng An Phước</h3>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-      
-                <!-- list 3 -->
-      
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                  <div class="imglist">
-                    <figure class="father-imglist">
-                      <img src="/img/img9/Image_01.png" alt="" class="" />
-                    </figure>
-                    <div class="child-element">
-                      <figure class="icon-imglist">
-                        <img src="/img/white/travel_solid_orange.png" alt="" />
-                      </figure>
-                      <h3 class="text-imglist">Biển Quy Nhơn</h3>
+
+                    <!-- list 3 -->
+
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="imglist">
+                            <figure class="father-imglist">
+                                <img src="/img/img9/Image_01.png" alt="" class="" />
+                            </figure>
+                            <div class="child-element">
+                                <figure class="icon-imglist">
+                                    <img src="/img/white/travel_solid_orange.png" alt="" />
+                                </figure>
+                                <h3 class="text-imglist">Biển Quy Nhơn</h3>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                  <div class="imglist">
-                    <figure class="father-imglist">
-                      <img src="/img/img10/Image_01.png" alt="" class="" />
-                    </figure>
-                    <div class="child-element">
-                      <figure class="icon-imglist">
-                        <img src="/img/white/hotel_solid_orange.png" alt="" />
-                      </figure>
-                      <h3 class="text-imglist">Hotel La Perle Hue</h3>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="imglist">
+                            <figure class="father-imglist">
+                                <img src="/img/img10/Image_01.png" alt="" class="" />
+                            </figure>
+                            <div class="child-element">
+                                <figure class="icon-imglist">
+                                    <img src="/img/white/hotel_solid_orange.png" alt="" />
+                                </figure>
+                                <h3 class="text-imglist">Hotel La Perle Hue</h3>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                  <div class="imglist">
-                    <figure class="father-imglist">
-                      <img src="/img/img11/Image_01.png" alt="" />
-                    </figure>
-                    <div class="child-element">
-                      <figure class="icon-imglist">
-                        <img src="/img/white/Restaurant.png" alt="" />
-                      </figure>
-                      <h3 class="text-imglist">Nhà Hàng Vịnh Hạ Long 01</h3>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="imglist">
+                            <figure class="father-imglist">
+                                <img src="/img/img11/Image_01.png" alt="" />
+                            </figure>
+                            <div class="child-element">
+                                <figure class="icon-imglist">
+                                    <img src="/img/white/Restaurant.png" alt="" />
+                                </figure>
+                                <h3 class="text-imglist">Nhà Hàng Vịnh Hạ Long 01</h3>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                  <div class="imglist">
-                    <figure class="father-imglist">
-                      <img src="/img/img12/Image_01.png" alt="" class="" />
-                    </figure>
-                    <div class="child-element">
-                      <figure class="icon-imglist">
-                        <img src="/img/white/hotel_solid_orange.png" alt="" />
-                      </figure>
-                      <h3 class="text-imglist">Khách sạn Mường Thanh Holiday</h3>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="imglist">
+                            <figure class="father-imglist">
+                                <img src="/img/img12/Image_01.png" alt="" class="" />
+                            </figure>
+                            <div class="child-element">
+                                <figure class="icon-imglist">
+                                    <img src="/img/white/hotel_solid_orange.png" alt="" />
+                                </figure>
+                                <h3 class="text-imglist">Khách sạn Mường Thanh Holiday</h3>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
+        </div>
         <div class="buttonload">
             <button class="button2">
           <i class="fas fa-redo-alt"></i> XEM THÊM
