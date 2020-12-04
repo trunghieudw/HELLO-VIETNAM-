@@ -57,38 +57,27 @@ ul li {
 
 .languages {
     display: flex;
+    position: relative;
 }
 
-.languages {
+.icon_lang {
     font-family: "Roboto", Regular;
     font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    text-align: left;
     color: #5d5d5d;
     text-decoration: none;
 }
 
-.languages figure:nth-child(2) {
-    padding-left: 20px;
-}
-
-.languages figure:nth-child(1)::after {
+.bbb::before {
     content: "";
     width: 1px;
     height: 10px;
     background-color: #cccccc;
     position: absolute;
-    margin: 0 10px;
-    top: 35%;
     transform: translateY(-50%);
 }
 
-.languages span a:hover {
+.languages span:hover {
     color: #2d77b6;
-    border-bottom: 2px solid #2d77b6;
     padding-bottom: 1px;
 }
 
@@ -97,13 +86,32 @@ ul li {
     align-items: baseline;
 }
 
-figure {
-    margin: 0 !important;
-}
-
 @media (max-width: 1403px) {
     .header_hello {
         flex-wrap: wrap;
+    }
+    .menu_func {
+        order: 3;
+    }
+    .languages {
+        order: 2;
+    }
+}
+
+@media (max-width: 983px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    .left {
+        width: 100%;
+    }
+    .menu_func {
+        margin: 0;
+        display: flex;
+        width: 100%;
+    }
+    .right {
+        width: 100%;
     }
     .menu_func {
         order: 3;
