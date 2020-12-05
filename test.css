@@ -4,13 +4,14 @@
     display: flex;
 }
 
-.left {
+
+/* .left {
     width: 46%;
 }
 
 .right {
     width: 54%;
-}
+} */
 
 .header_hello {
     display: flex;
@@ -57,33 +58,32 @@ ul li {
 
 .languages {
     display: flex;
-    position: relative;
-}
-
-.icon_lang {
-    font-family: "Roboto", Regular;
-    font-size: 16px;
-    color: #5d5d5d;
-    text-decoration: none;
-}
-
-.bbb::before {
-    content: "";
-    width: 1px;
-    height: 10px;
-    background-color: #cccccc;
-    position: absolute;
-    transform: translateY(-50%);
-}
-
-.languages span:hover {
-    color: #2d77b6;
-    padding-bottom: 1px;
+    align-items: center;
 }
 
 .icon_lang {
     display: flex;
     align-items: baseline;
+    font-family: "Roboto", Regular;
+    font-size: 16px;
+    color: #5d5d5d;
+    text-decoration: none;
+    position: relative;
+}
+
+.icon_lang:nth-child(1)::before {
+    content: "";
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    border-right: 2px solid black;
+}
+
+.languages span:hover {
+    color: #2d77b6;
+    padding-bottom: 1px;
 }
 
 @media (max-width: 1403px) {
@@ -196,6 +196,17 @@ ul li {
     outline: none;
 }
 
+.img-li {
+    width: 38px;
+    height: 38px;
+}
+
+.menubar {
+    padding: 41px 52px 40px 20px;
+    display: flex;
+    align-items: center;
+}
+
 
 /* menu duoi */
 
@@ -220,26 +231,30 @@ ul li {
     margin: 0 50px;
 }
 
-.li_menu1 span::after {
-    content: "";
-    width: 1px;
-    height: 50px;
-    background-color: #cccccc;
-    position: absolute;
-    margin: 0 50px;
-    top: 50%;
-    transform: translateY(-50%);
+.li_menu {
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
-.li_menu2 span::after {
+.li_menu1::after {
     content: "";
-    width: 1px;
-    height: 50px;
-    background-color: #cccccc;
+    height: 30%;
     position: absolute;
-    margin: 0 50px;
     top: 50%;
+    left: 0;
     transform: translateY(-50%);
+    border-left: 2px solid black;
+}
+
+.li_menu1::before {
+    content: "";
+    height: 30%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    border-right: 2px solid black;
 }
 
 .menu__duoi {
@@ -249,7 +264,8 @@ ul li {
     flex-wrap: wrap;
 }
 
-.menu__list a {
+
+/* .menu__list a {
     margin: 41px 0 40px 17px;
     color: #373737;
     text-align: center;
@@ -258,7 +274,7 @@ ul li {
     font-weight: 500;
     font-family: "Roboto", Medium;
     font-style: normal;
-}
+} */
 
 .icon1 {
     background: #e9e9e9;

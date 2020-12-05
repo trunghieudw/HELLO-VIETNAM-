@@ -17,79 +17,88 @@
 
 <body>
     <div class="wrapper">
-        <div class="left">
-            <div class="header_hello">
-                <div class="logo">
-                    <figure>
-                        <img src="./logo.png" alt="logo">
-                    </figure>
-                </div>
-                <ul class="menu_func">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Trang chủ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Bộ sưu tập</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Ứng dụng</a>
-                    </li>
-                </ul>
-                <div class="languages">
-                    <div class="icon_lang pr-3">
-                        <figure class="d-flex">
-                            <img src="./img/lang_vn.png" alt="logo" class="img-fluid">
-                        </figure>
-                        <span>VN</span>
-                    </div>
-                    <div class="icon_lang">
-                        <figure class="d-flex ">
-                            <img src="./img/lang_en.png" alt="logo" class="img-fluid">
-                        </figure>
-                        <span>EN</span>
-                    </div>
-                </div>
-            </div>
-            <div class="content">
-                <p class="p1_title">Danh sách mà bạn cần</p>
-                <h1 class="h1_title">
-                    Những điểm du lịch, nhà hàng, khách sạn mà bạn cần biết
-                </h1>
-                <div class="search_box icon_sort">
-                    <input type="text" placeholder="Nhập địa điểm du lịch" name="search" class="text-placeholder" />
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5 col-sm-12">
+                    <div class="left ">
+                        <div class="header_hello">
+                            <div class="logo">
+                                <figure>
+                                    <img src="./logo.png" alt="logo">
+                                </figure>
+                            </div>
+                            <ul class="menu_func">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Trang chủ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Bộ sưu tập</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Ứng dụng</a>
+                                </li>
+                            </ul>
+                            <div class="languages">
+                                <div class="icon_lang pr-3">
+                                    <img src="./img/lang_vn.png" alt="logo" class="img-fluid">
+                                    <span>VN</span>
+                                </div>
+                                <div class="icon_lang pl-3">
+                                    <img src="./img/lang_en.png" alt="logo" class="img-fluid">
+                                    <span>EN</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p class="p1_title">Danh sách mà bạn cần</p>
+                            <h1 class="h1_title">
+                                Những điểm du lịch, nhà hàng, khách sạn mà bạn cần biết
+                            </h1>
+                            <div class="search_box icon_sort">
+                                <input type="text" placeholder="Nhập địa điểm du lịch" name="search" class="text-placeholder" />
 
-                    <button class="submitbtn">
-                        <i class="iconsearch fas fa-search"></i>
-                        <span class="timkiem">TÌM KIẾM</span>
-                    </button>
+                                <button class="submitbtn">
+                                    <i class="iconsearch fas fa-search"></i>
+                                    <span class="timkiem">TÌM KIẾM</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 col-sm-12">
+                    <div class="right">
+                        <figure>
+                            <img src="./img/anh.png" width="100%" alt="">
+                        </figure>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="right">
-            <figure>
-                <img src="./img/anh.png" alt="" class="img-fluid">
-            </figure>
-        </div>
+
     </div>
     <div class="list_body">
         <div class="menu__duoi">
-            <div class="menu__list">
-                <li class="li_menu1">
+            <ul class="menu__list">
+                <li class="li_menu">
                     <a href="#" class="menubar">
-                        <img src="/img/travel_solid_orange.png" alt="" /></a>
-                    <span><a href="#">Tham quan</a> </span>
+                        <img src="/img/travel_solid_orange.png" width="100%" alt="" class="img-li" />
+                        <span class="pl-2">Tham quan </span>
+                    </a>
                 </li>
-                <li class="li_menu2">
+                <li class="li_menu li_menu1">
                     <a href="#" class="menubar">
-                        <img src="/img/Restaurant.png" alt="" /></a>
-                    <span><a href="#">Nhà hàng</a></span>
+                        <img src="/img/Restaurant.png" width="100%" alt="" class="img-li" />
+                        <span>Tham quan </span>
+                    </a>
                 </li>
-                <li>
+                <li class="li_menu">
                     <a href="#" class="menubar">
-                        <img src="/img/hotel_solid_orange.png" alt="" /></a>
-                    <a href="#">Khách sạn</a>
+                        <img src="/img/hotel_solid_orange.png" width="100%" alt="" class="img-li" />
+                        <span>Tham quan </span>
+                    </a>
                 </li>
-            </div>
+
+            </ul>
             <div class="ml-auto icon_sort">
                 <i class="fa fa-th-large icon1" aria-hidden="true"></i>
                 <i class="fa fa-th-list icon1" aria-hidden="true"></i>
@@ -275,7 +284,7 @@
                 <p>Bản quyền bởi MINERVA @2019</p>
             </div>
             <div class="listicon_footer">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" clas><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-google"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-youtube"></i></a>
