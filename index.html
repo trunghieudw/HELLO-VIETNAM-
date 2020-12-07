@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DashboardHelloVN</title>
-    <link rel="stylesheet" href="test.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./fontawesome-free-5/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -19,7 +19,7 @@
     <div class="wrapper">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-5 col-sm-12">
+                <div class=" col-lg-5 col-md-12">
                     <div class="left ">
                         <div class="header_hello">
                             <div class="logo">
@@ -41,11 +41,11 @@
                             <div class="languages">
                                 <div class="icon_lang pr-3">
                                     <img src="./img/lang_vn.png" alt="logo" class="img-fluid">
-                                    <span>VN</span>
+                                    <span class="national_lang">VN</span>
                                 </div>
                                 <div class="icon_lang pl-3">
                                     <img src="./img/lang_en.png" alt="logo" class="img-fluid">
-                                    <span>EN</span>
+                                    <span class="national_lang">EN</span>
                                 </div>
                             </div>
                         </div>
@@ -54,18 +54,18 @@
                             <h1 class="h1_title">
                                 Những điểm du lịch, nhà hàng, khách sạn mà bạn cần biết
                             </h1>
-                            <div class="search_box icon_sort">
+                            <div class="search_box ">
                                 <input type="text" placeholder="Nhập địa điểm du lịch" name="search" class="text-placeholder" />
 
-                                <button class="submitbtn">
-                                    <i class="iconsearch fas fa-search"></i>
+                                <button class="submit_btn">
+                                    <i class="icon_search fas fa-search"></i>
                                     <span class="timkiem">TÌM KIẾM</span>
                                 </button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-7 col-sm-12">
+                <div class=" col-lg-7 col-md-12">
                     <div class="right">
                         <figure>
                             <img src="./img/anh.png" width="100%" alt="">
@@ -77,31 +77,30 @@
 
     </div>
     <div class="list_body">
-        <div class="menu__duoi">
-            <ul class="menu__list">
+        <div class="menu_bottom">
+            <ul class="menu_list">
                 <li class="li_menu">
                     <a href="#" class="menubar">
-                        <img src="/img/travel_solid_orange.png" width="100%" alt="" class="img-li" />
-                        <span class="pl-2">Tham quan </span>
+                        <img src="/img/travel_solid_orange.png" width="100%" alt="" class="img_li" />
+                        <span class="text_menu_bottom">Tham quan</span>
                     </a>
                 </li>
                 <li class="li_menu li_menu1">
                     <a href="#" class="menubar">
-                        <img src="/img/Restaurant.png" width="100%" alt="" class="img-li" />
-                        <span>Tham quan </span>
+                        <img src="/img/Restaurant.png" width="100%" alt="" class="img_li_res" />
+                        <span class="text_menu_bottom">Nhà hàng</span>
                     </a>
                 </li>
                 <li class="li_menu">
                     <a href="#" class="menubar">
-                        <img src="/img/hotel_solid_orange.png" width="100%" alt="" class="img-li" />
-                        <span>Tham quan </span>
+                        <img src="/img/hotel_solid_orange.png" width="100%" alt="" class="img_li" />
+                        <span class="text_menu_bottom">Khách sạn</span>
                     </a>
                 </li>
-
             </ul>
             <div class="ml-auto icon_sort">
-                <i class="fa fa-th-large icon1" aria-hidden="true"></i>
-                <i class="fa fa-th-list icon1" aria-hidden="true"></i>
+                <i class="fa fa-th-large icon_sort_ingroup" aria-hidden="true"></i>
+                <i class="fa fa-th-list icon_sort_ingroup" aria-hidden="true"></i>
             </div>
         </div>
         <div class="txt">
@@ -292,8 +291,6 @@
             </div>
         </div>
     </div>
-
-
 </body>
 
 </html>
