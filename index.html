@@ -10,9 +10,7 @@
     <link rel="stylesheet" href="./fontawesome-free-5/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="reponsiveindex.js"></script>
 </head>
 
 <body>
@@ -23,9 +21,11 @@
             <div class="header_hello">
                 <div class="logo">
                     <figure>
-                        <img src="./logo.png" alt="logo">
+                        <a href="#"><img src="./logo.png" alt="logo"> </a>
+
                     </figure>
                 </div>
+
                 <ul class="menu_func">
                     <li class="nav-item">
                         <a href="#" class="nav-link">Trang chủ</a>
@@ -40,13 +40,16 @@
                 <div class="languages">
                     <div class="icon_lang pr-3">
                         <img src="./img/lang_vn.png" alt="logo" class="img-fluid">
-                        <span class="national_lang">VN</span>
+                        <a href="#" class="national_lang">VN</a>
+                        <!-- <span class="national_lang">VN</span> -->
                     </div>
                     <div class="icon_lang pl-3">
                         <img src="./img/lang_en.png" alt="logo" class="img-fluid">
-                        <span class="national_lang">EN</span>
+                        <a href="#" class="national_lang">EN</a>
+                        <!-- <span class="national_lang">EN</span> -->
                     </div>
                 </div>
+
             </div>
             <div class="content">
                 <p class="p1_title">Danh sách mà bạn cần</p>
@@ -57,9 +60,9 @@
                     <input type="text" placeholder="Nhập địa điểm du lịch" name="search" class="text-placeholder" />
 
                     <button class="submit_btn">
-                                    <i class="icon_search fas fa-search"></i>
-                                    <span class="timkiem">TÌM KIẾM</span>
-                                </button>
+                        <i class="icon_search fas fa-search"></i>
+                        <span class="timkiem">TÌM KIẾM</span>
+                    </button>
                 </div>
             </div>
         </div>
